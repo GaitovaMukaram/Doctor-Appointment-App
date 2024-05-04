@@ -14,6 +14,24 @@
 		9F622B9C2BE0A94F00874FDE /* exam_mod5.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F622B9A2BE0A94F00874FDE /* exam_mod5.xcdatamodeld */; };
 		9F622B9E2BE0A95000874FDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F622B9D2BE0A95000874FDE /* Assets.xcassets */; };
 		9F622BA12BE0A95000874FDE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9F622BA02BE0A95000874FDE /* Base */; };
+		9F622BAC2BE1075B00874FDE /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F622BAB2BE1075B00874FDE /* AuthViewController.swift */; };
+		9F622BAE2BE1077700874FDE /* RegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F622BAD2BE1077700874FDE /* RegViewController.swift */; };
+		9F622BB22BE107D300874FDE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F622BB12BE107D300874FDE /* ProfileViewController.swift */; };
+		9F622BB62BE1084700874FDE /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F622BB52BE1084700874FDE /* AppointmentViewController.swift */; };
+		9F622BB82BE1086400874FDE /* AppointmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F622BB72BE1086400874FDE /* AppointmentTableViewCell.swift */; };
+		9F622BBA2BE108A500874FDE /* ListDoctorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F622BB92BE108A500874FDE /* ListDoctorsViewController.swift */; };
+		9F622BBC2BE108BF00874FDE /* ListDoctorsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F622BBB2BE108BF00874FDE /* ListDoctorsTableViewCell.swift */; };
+		9F622BBE2BE108F700874FDE /* DetailDoctorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F622BBD2BE108F700874FDE /* DetailDoctorViewController.swift */; };
+		9F622BC02BE1092100874FDE /* AddAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F622BBF2BE1092100874FDE /* AddAppointmentViewController.swift */; };
+		9F622BC22BE10D1200874FDE /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F622BC12BE10D1200874FDE /* MainTabBarController.swift */; };
+		9F622BC52BE1172200874FDE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9F622BC42BE1172200874FDE /* FirebaseAuth */; };
+		9F622BC72BE1172200874FDE /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 9F622BC62BE1172200874FDE /* FirebaseDatabase */; };
+		9F622BC92BE1172200874FDE /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9F622BC82BE1172200874FDE /* FirebaseDatabaseSwift */; };
+		9F622BCB2BE1172200874FDE /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 9F622BCA2BE1172200874FDE /* FirebaseStorage */; };
+		9F622BCD2BE1188500874FDE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F622BCC2BE1188500874FDE /* GoogleService-Info.plist */; };
+		9F622C182BE3797B00874FDE /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F622C172BE3797B00874FDE /* DataManager.swift */; };
+		9F622C1A2BE3917C00874FDE /* Doctors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F622C192BE3917C00874FDE /* Doctors.swift */; };
+		9F622C1C2BE39C4900874FDE /* Appointments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F622C1B2BE39C4900874FDE /* Appointments.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +44,20 @@
 		9F622B9D2BE0A95000874FDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F622BA02BE0A95000874FDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F622BA22BE0A95000874FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F622BAB2BE1075B00874FDE /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		9F622BAD2BE1077700874FDE /* RegViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegViewController.swift; sourceTree = "<group>"; };
+		9F622BB12BE107D300874FDE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9F622BB52BE1084700874FDE /* AppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
+		9F622BB72BE1086400874FDE /* AppointmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentTableViewCell.swift; sourceTree = "<group>"; };
+		9F622BB92BE108A500874FDE /* ListDoctorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDoctorsViewController.swift; sourceTree = "<group>"; };
+		9F622BBB2BE108BF00874FDE /* ListDoctorsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDoctorsTableViewCell.swift; sourceTree = "<group>"; };
+		9F622BBD2BE108F700874FDE /* DetailDoctorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDoctorViewController.swift; sourceTree = "<group>"; };
+		9F622BBF2BE1092100874FDE /* AddAppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAppointmentViewController.swift; sourceTree = "<group>"; };
+		9F622BC12BE10D1200874FDE /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		9F622BCC2BE1188500874FDE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9F622C172BE3797B00874FDE /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		9F622C192BE3917C00874FDE /* Doctors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctors.swift; sourceTree = "<group>"; };
+		9F622C1B2BE39C4900874FDE /* Appointments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointments.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +65,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F622BC92BE1172200874FDE /* FirebaseDatabaseSwift in Frameworks */,
+				9F622BCB2BE1172200874FDE /* FirebaseStorage in Frameworks */,
+				9F622BC72BE1172200874FDE /* FirebaseDatabase in Frameworks */,
+				9F622BC52BE1172200874FDE /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +94,78 @@
 		9F622B902BE0A94F00874FDE /* exam_mod5 */ = {
 			isa = PBXGroup;
 			children = (
+				9F622C162BE3796000874FDE /* Helpers */,
+				9F622BCC2BE1188500874FDE /* GoogleService-Info.plist */,
+				9F622BAA2BE1069300874FDE /* Models */,
+				9F622BA92BE1068900874FDE /* Views */,
+				9F622BA82BE1067200874FDE /* Controllers */,
 				9F622B912BE0A94F00874FDE /* AppDelegate.swift */,
 				9F622B932BE0A94F00874FDE /* SceneDelegate.swift */,
 				9F622B952BE0A94F00874FDE /* ViewController.swift */,
-				9F622B972BE0A94F00874FDE /* Main.storyboard */,
 				9F622B9D2BE0A95000874FDE /* Assets.xcassets */,
-				9F622B9F2BE0A95000874FDE /* LaunchScreen.storyboard */,
 				9F622BA22BE0A95000874FDE /* Info.plist */,
 				9F622B9A2BE0A94F00874FDE /* exam_mod5.xcdatamodeld */,
 			);
 			path = exam_mod5;
+			sourceTree = "<group>";
+		};
+		9F622BA82BE1067200874FDE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F622BB42BE1081400874FDE /* Appointment */,
+				9F622BB32BE107F900874FDE /* Doctors */,
+				9F622BAB2BE1075B00874FDE /* AuthViewController.swift */,
+				9F622BAD2BE1077700874FDE /* RegViewController.swift */,
+				9F622BB12BE107D300874FDE /* ProfileViewController.swift */,
+				9F622BC12BE10D1200874FDE /* MainTabBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9F622BA92BE1068900874FDE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F622B972BE0A94F00874FDE /* Main.storyboard */,
+				9F622B9F2BE0A95000874FDE /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9F622BAA2BE1069300874FDE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9F622C192BE3917C00874FDE /* Doctors.swift */,
+				9F622C1B2BE39C4900874FDE /* Appointments.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9F622BB32BE107F900874FDE /* Doctors */ = {
+			isa = PBXGroup;
+			children = (
+				9F622BB92BE108A500874FDE /* ListDoctorsViewController.swift */,
+				9F622BBB2BE108BF00874FDE /* ListDoctorsTableViewCell.swift */,
+				9F622BBD2BE108F700874FDE /* DetailDoctorViewController.swift */,
+				9F622BBF2BE1092100874FDE /* AddAppointmentViewController.swift */,
+			);
+			path = Doctors;
+			sourceTree = "<group>";
+		};
+		9F622BB42BE1081400874FDE /* Appointment */ = {
+			isa = PBXGroup;
+			children = (
+				9F622BB52BE1084700874FDE /* AppointmentViewController.swift */,
+				9F622BB72BE1086400874FDE /* AppointmentTableViewCell.swift */,
+			);
+			path = Appointment;
+			sourceTree = "<group>";
+		};
+		9F622C162BE3796000874FDE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9F622C172BE3797B00874FDE /* DataManager.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +184,12 @@
 			dependencies = (
 			);
 			name = exam_mod5;
+			packageProductDependencies = (
+				9F622BC42BE1172200874FDE /* FirebaseAuth */,
+				9F622BC62BE1172200874FDE /* FirebaseDatabase */,
+				9F622BC82BE1172200874FDE /* FirebaseDatabaseSwift */,
+				9F622BCA2BE1172200874FDE /* FirebaseStorage */,
+			);
 			productName = exam_mod5;
 			productReference = 9F622B8E2BE0A94F00874FDE /* exam_mod5.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +218,9 @@
 				Base,
 			);
 			mainGroup = 9F622B852BE0A94F00874FDE;
+			packageReferences = (
+				9F622BC32BE1172200874FDE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 9F622B8F2BE0A94F00874FDE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F622B9E2BE0A95000874FDE /* Assets.xcassets in Resources */,
+				9F622BCD2BE1188500874FDE /* GoogleService-Info.plist in Resources */,
 				9F622BA12BE0A95000874FDE /* Base in Resources */,
 				9F622B992BE0A94F00874FDE /* Base in Resources */,
 			);
@@ -142,9 +250,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F622B962BE0A94F00874FDE /* ViewController.swift in Sources */,
+				9F622C182BE3797B00874FDE /* DataManager.swift in Sources */,
+				9F622BAE2BE1077700874FDE /* RegViewController.swift in Sources */,
+				9F622BC22BE10D1200874FDE /* MainTabBarController.swift in Sources */,
+				9F622BBA2BE108A500874FDE /* ListDoctorsViewController.swift in Sources */,
 				9F622B9C2BE0A94F00874FDE /* exam_mod5.xcdatamodeld in Sources */,
+				9F622C1A2BE3917C00874FDE /* Doctors.swift in Sources */,
+				9F622BAC2BE1075B00874FDE /* AuthViewController.swift in Sources */,
+				9F622BBC2BE108BF00874FDE /* ListDoctorsTableViewCell.swift in Sources */,
 				9F622B922BE0A94F00874FDE /* AppDelegate.swift in Sources */,
+				9F622BC02BE1092100874FDE /* AddAppointmentViewController.swift in Sources */,
+				9F622BB62BE1084700874FDE /* AppointmentViewController.swift in Sources */,
+				9F622BB82BE1086400874FDE /* AppointmentTableViewCell.swift in Sources */,
+				9F622BB22BE107D300874FDE /* ProfileViewController.swift in Sources */,
 				9F622B942BE0A94F00874FDE /* SceneDelegate.swift in Sources */,
+				9F622BBE2BE108F700874FDE /* DetailDoctorViewController.swift in Sources */,
+				9F622C1C2BE39C4900874FDE /* Appointments.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +488,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F622BC32BE1172200874FDE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.24.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F622BC42BE1172200874FDE /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F622BC32BE1172200874FDE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		9F622BC62BE1172200874FDE /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F622BC32BE1172200874FDE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		9F622BC82BE1172200874FDE /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F622BC32BE1172200874FDE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		9F622BCA2BE1172200874FDE /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F622BC32BE1172200874FDE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		9F622B9A2BE0A94F00874FDE /* exam_mod5.xcdatamodeld */ = {
